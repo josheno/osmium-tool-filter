@@ -1,8 +1,11 @@
 
-# Osmium Command Line Tool
+# Osmium Command Line Tool with Tag Filter Extension
 
 A multipurpose command line tool for working with OpenStreetMap data based on
-the Osmium library.
+the Osmium library.  The add-filter branch has an extension to add a values-filter command.
+This allows the filtering of nodes, ways, and relations which may have undesireable text that
+should not be processed and displayed.  The syntax is similar to the tag-filter command, on
+which it is based.
 
 Official web site: http://osmcode.org/osmium-tool/
 
